@@ -2,6 +2,9 @@ footer {
     background-color: whitesmoke;
     padding: 3em 4em 2em;
 }
+*{
+    font-size: 1vw;
+}
 
 footer .logo {
     color: black;
@@ -196,7 +199,9 @@ input#subscriber-email::placeholder {
 
 /* iPads to Smartphone for Common Elements ----------- */
 @media only screen and (max-width : 1024px) {
-
+    *{
+        font-size: 1vw;
+    }
     .col-3 {
         display: block;
         width: 100%;
@@ -303,7 +308,9 @@ input#subscriber-email::placeholder {
 
 /* iPads (portrait)----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
-
+    *{
+        font-size: 1vw;
+    }
     footer {
         padding-right: 3em;
         padding-left: 3em;
@@ -318,7 +325,9 @@ input#subscriber-email::placeholder {
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
-
+    *{
+        font-size: 1vw;
+    }
     section {
         padding-bottom: 3em;
     }
@@ -336,7 +345,9 @@ input#subscriber-email::placeholder {
 
 /* Mini Tablet ----------- */
 @media only screen and (max-width : 600px) {
-
+    *{
+        font-size: 1vw;
+    }
     .col-3 {
         display: block;
         width: 100%;
@@ -355,7 +366,9 @@ input#subscriber-email::placeholder {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 480px) {
-
+    *{
+        font-size: 1vw;
+    }
     .col-6 {
         width: 100%;
         display: block;
