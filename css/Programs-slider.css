@@ -1,0 +1,62 @@
+.Programs-slider-section{
+    height: 90%;
+    width: 100%;
+    padding: 0 0 ;
+    margin: 0 0 ;
+}
+
+.card-slider{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding: 10% 5%; 
+    height: 90%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.card-slider::-webkit-scrollbar{
+    display: none;
+}
+
+.card-wraper{
+    width: 50%;
+}
+
+.card{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.card-img{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-img>img{
+    z-index: -111;
+    width: 100%;
+    max-height: 250px;
+}
+
+.card-desc{
+    font-size: x-large;
+}
+
+.card-school{
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: medium;
+}
+
+.card-button>button{
+    margin: 5px auto;
+   font-size: medium;
+}

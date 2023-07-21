@@ -1,6 +1,12 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2vw;
+}
+
 body,
 html {
-    height: 100%;
+    height: fit-content;
     width: 100%;
     margin: 0 0 0 0;
     background-color: white;
@@ -57,9 +63,7 @@ html {
     text-align: text-bottom;
     margin: 0 8px;
     color: rgb(75 62 62);
-    font-weight: 550;
-    font-size: 1vw;
-    opacity: 0.9;
+    opacity: 0.8;
     text-decoration: none;
     height: fit-content;
 }
@@ -135,7 +139,13 @@ html {
     display: none;
 }
 
+#programsmenu:hover{
+    &#programs{
+        color:black;
+        opacity: 1;
+    }
 
+}
 
 
 @media screen and (max-width:768px) {
